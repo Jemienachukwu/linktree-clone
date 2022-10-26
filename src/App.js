@@ -45,7 +45,7 @@ function App() {
       <div className="container">
         {links.map((item) => (
           <div key={item.id} className="btn-container">
-            <a href={item.link}>
+            <a href={item.link} id={item.id}>
               <button>{item.title}</button>
             </a>
           </div>
