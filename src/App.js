@@ -7,7 +7,7 @@ function App() {
     {
       title: "Twitter Link",
       id: "twitter",
-      link: "https://training.zuri.team/",
+      link: "twitter.com",
     },
     {
       title: "Zuri Team",
