@@ -1,15 +1,31 @@
 .App {
-  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
   padding: 64px 116px;
 }
+.mainApp{
+min-height:80vh;
+font-family: "Poppins", sans-serif;
+
+}
 header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.head{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+header .dots,header .icon{
+  width: 30px;
+  height: 30px;
+}
+header .dots{
+  display: none;
 }
 header img {
   width: 100px;
@@ -47,20 +63,81 @@ button {
   margin: 10px;
   cursor: pointer;
 }
-footer {
+.footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.mainContainer{
+  padding: 60px;
+width: fit-content;
+margin: 0 auto;
+}
+.formContainer{
+  width: 100%;
+}
+
+input{
+  width: 100%;
+  height: 35px;
+  border: 1px solid grey;
+  border-radius: 6px;
+}
+.message input{
+height: 100px;
+padding: 0px;
+}
+.message input::placeholder{
+
+  float: left;
+
+}
+.check{
+display: flex;
+align-items: center;
+}
+.check input{  
+width: 14px;
+cursor:pointer;
+margin-right:6px
+}
+.contactBtn{
+  background-color: blue;
+  color: white;
+  height: 50px;
+}
 @media only screen and (max-width: 800px) {
   .App {
     padding: 20px;
   }
+  header .dots{
+    display: block
+    ;
+  }
+  header .icon{
+    display: none;
+  }
+  .formContainer{
+    font-size:smaller;
+  }
+ .mainContainer{
+  padding: 20px 30px;
+ }
+.names{
+  display: flex;
+  justify-content: space-between;
+}
+.name, .lastName{
+width: 47%;
+
+}
   footer {
     font-size: medium;
     flex-direction: column;
     align-items: flex-start;
+    
   }
   .zuri {
     width: 120px;
