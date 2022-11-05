@@ -134,6 +134,7 @@ margin-right:6px
   padding: 20px 30px;
  }
 .names{
+Display:none;
 Flex-direction: column;
 }
 .name, .lastName{
