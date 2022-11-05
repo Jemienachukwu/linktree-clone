@@ -93,6 +93,7 @@ width: 47%;
 }
 .message textarea{
 height: 100px;
+width:100%;
 padding: 5px 0;
    resize: none;
   outline: none;
