@@ -133,7 +133,13 @@ margin-right:6px
  .mainContainer{
   padding: 20px 30px;
  }
+.names{
+Flex-direction: column;
+}
+.name, .lastName{
+width: 100%;
 
+}
   footer {
     font-size: medium;
     flex-direction: column;
