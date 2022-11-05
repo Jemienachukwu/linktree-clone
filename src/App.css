@@ -85,6 +85,14 @@ input{
   border: 1px solid grey;
   border-radius: 6px;
 }
+.names{
+  display: flex;
+  justify-content: space-between;
+}
+.name, .lastName{
+width: 47%;
+
+}
 .message input{
 height: 100px;
 padding: 0px;
@@ -125,14 +133,7 @@ margin-right:6px
  .mainContainer{
   padding: 20px 30px;
  }
-.names{
-  display: flex;
-  justify-content: space-between;
-}
-.name, .lastName{
-width: 47%;
 
-}
   footer {
     font-size: medium;
     flex-direction: column;
