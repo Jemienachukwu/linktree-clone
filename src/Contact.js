@@ -34,7 +34,7 @@ const Contact = () => {
             you agree to provide your data to Nachukwu who may contact you
            </p>
             </label>
-            <button className='contactBtn' id='btn_submit'>send message</button>
+            <button className='contactBtn' id='btn__submit'>send message</button>
         </form>
     </div>
   )
