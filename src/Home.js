@@ -66,7 +66,7 @@ function Home() {
     
       </div>
       <div className="icons">
-         <img src={slack} alt='img'className='slack'/>
+         <img src={slack} alt='img'className='icon'/>
         <FaGithub className="icon" />
       </div>
   
