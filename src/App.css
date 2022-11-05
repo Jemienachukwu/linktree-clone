@@ -141,7 +141,7 @@ Flex-direction: column;
 width: 100%;
 
 }
-  footer {
+  .footer {
     font-size: medium;
     flex-direction: column;
     align-items: flex-start;
