@@ -1,7 +1,7 @@
 import React from 'react'
 import "./App.css";
 import I4G from './icons/I4G.png'
-import ZURI from './icons/vector.png'
+import ZURI from './icons/Vector.png'
 const Footer = () => {
   return (
     <div className='footer'>
