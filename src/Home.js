@@ -1,7 +1,7 @@
 import React from 'react'
 import "./App.css";
 import { FaGithub } from "react-icons/fa";
-import { FaSlack } from "react-icons/fa";
+import slack from './icons/slack.png'
 import icon  from './icons/Icon.png'
 import dots from './icons/dots.png'
 function Home() {
@@ -66,7 +66,7 @@ function Home() {
     
       </div>
       <div className="icons">
-        <FaSlack className="icon" />
+         <img src={slack} alt='img'className='slack'/>
         <FaGithub className="icon" />
       </div>
   
