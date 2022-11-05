@@ -91,14 +91,14 @@ input{
 width: 47%;
 
 }
-.message input{
+.message textarea{
 height: 100px;
-padding: 0px;
+padding: 5px 0;
+   resize: none;
+  outline: none;
 }
 .message input::placeholder{
-
   float: left;
-
 }
 .check{
 display: flex;
