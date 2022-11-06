@@ -82,7 +82,9 @@ input{
   height: 35px;
   border: 1px solid grey;
   border-radius: 6px;
-}
+}:focus { 
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #D1E9FF
+ }
 .names{
   display: flex;
   justify-content: space-between;
@@ -94,7 +96,7 @@ width: 47%;
 .message textarea{
 height: 100px;
 width:100%;
-padding: 5px 0;
+padding: 5px;
    resize: none;
   outline: none;
 }
@@ -111,7 +113,7 @@ cursor:pointer;
 margin-right:6px
 }
 .contactBtn{
-  background-color: blue;
+  background-color: #1570ef;
   color: white;
   height: 50px;
 }
