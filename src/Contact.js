@@ -28,11 +28,11 @@ const handleChange = (event) => {
         <form className='formContainer'>
             <div className='names'>
                 <label className='name'>
-                    <p>Name</p>
+                    <p>First name</p>
                     <input type='text' placeholder='Enter your first name' id='first_name' name='firstname' onChange={handleChange}
                     value={formData.firstname} required/>
                 </label>
-                <label className='lastName'>
+                <label className='last name'>
                     <p>Last Name</p>
                     <input type='text' placeholder='Enter your last name' id='last_name' name='lastname'
                     onChange={handleChange}
