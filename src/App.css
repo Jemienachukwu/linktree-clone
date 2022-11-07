@@ -4,27 +4,27 @@
   align-items: center;
   padding: 64px 116px;
 }
-.mainApp{
-min-height:80vh;
-font-family: "Poppins", sans-serif;
-
+.mainApp {
+  min-height: 80vh;
+  font-family: "Poppins", sans-serif;
 }
 header {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.head{
+.head {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-header .dots,header .icon{
+header .dots,
+header .icon {
   width: 30px;
   height: 30px;
 }
-header .dots{
+header .dots {
   display: none;
 }
 header img {
@@ -45,7 +45,7 @@ button {
   height: 70px;
   border: none;
   border-radius: 6px;
-  background-color: #EAECF0;
+  background-color: #eaecf0;
   margin: 10px 0;
   cursor: pointer;
 }
@@ -66,51 +66,80 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0;
 }
 
-.mainContainer{
+.mainContainer {
   padding: 60px;
-width: fit-content;
-margin: 0 auto;
+  width: fit-content;
+  margin: 0 auto;
 }
-.formContainer{
+.formContainer {
   width: 100%;
 }
 
-input{
+input {
   width: 100%;
   height: 35px;
-  border: 1px solid grey;
+  text-indent: 5px;
+  border: 1px solid #84caff;
   border-radius: 6px;
 }
-.names{
+:focus {
+  border: 1px solid #84caff;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #d1e9ff;
+  border-radius: 8px;
+}
+input:invalid {
+  border: 1px solid #f89687;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #ffd3cc;
+}
+.names {
   display: flex;
   justify-content: space-between;
 }
-.name, .lastName{
-width: 47%;
-
+.name,
+.lastName {
+  width: 47%;
 }
-.message textarea{
-height: 100px;
-width:100%;
-padding: 5px 0;
-   resize: none;
+.message textarea {
+  height: 100px;
+  width: 100%;
+  border: 1px solid #84caff;
+  padding: 5px 0;
+  resize: none;
   outline: none;
+  text-indent: 7px;
 }
-.message input::placeholder{
+
+textarea:invalid {
+  border: 1px solid #f89687;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #ffd3cc;
+}
+.message input::placeholder {
   float: left;
 }
-.check{
-display: flex;
-align-items: center;
+.check {
+  display: flex;
+  align-items: center;
 }
-.check input{  
-width: 14px;
-cursor:pointer;
-margin-right:6px
+.checkbox {
+  width: 14px;
+  cursor: pointer;
+  margin-right: 6px;
+  border: none;
 }
-.contactBtn{
+.checkbox:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.checkbox:invalid {
+  border: none;
+  box-shadow: none;
+}
+
+.contactBtn {
   background-color: blue;
   color: white;
   height: 50px;
@@ -119,33 +148,31 @@ margin-right:6px
   .App {
     padding: 20px;
   }
-  header .dots{
-    display: block
-    ;
+  header .dots {
+    display: block;
   }
-  header .icon{
+  header .icon {
     display: none;
   }
-  .formContainer{
-    font-size:smaller;
+  .formContainer {
+    font-size: smaller;
   }
- .mainContainer{
-  padding: 20px 30px;
- }
-.names{
-Display:flex;
-Flex-direction: column;
-
-}
-.name, .lastName{
-width: 100%;
-
-}
+  .mainContainer {
+    padding: 20px 30px;
+  }
+  .names {
+    display: flex;
+    flex-direction: column;
+  }
+  .name,
+  .lastName {
+    width: 100%;
+  }
   .footer {
     font-size: medium;
     flex-direction: column;
     align-items: flex-start;
-    
+    padding: 20px;
   }
   .zuri {
     width: 120px;
