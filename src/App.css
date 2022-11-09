@@ -84,6 +84,15 @@ input {
   border: 1px solid grey;
   border-radius: 6px;
 }
+input:focus {
+  border: 1px solid #84caff;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #d1e9ff;
+}
+input:invalid {
+  border: 1px solid #f89687;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #ffd3cc;
+}
+
 .names {
   display: flex;
   justify-content: space-between;
@@ -105,6 +114,10 @@ textarea:invalid {
   border: 1px solid #f89687;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #ffd3cc;
 }
+.textarea:focus {
+  border: 1px solid #84caff;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #d1e9ff;
+}
 .message input::placeholder {
   float: left;
 }
@@ -117,6 +130,10 @@ textarea:invalid {
   cursor: pointer;
   margin-right: 6px;
   border: none;
+}
+.checkbox:invalid {
+  border: none;
+  box-shadow: none;
 }
 .contactBtn {
   background-color: blue;
