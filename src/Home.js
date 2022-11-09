@@ -34,7 +34,7 @@ function Home() {
     },
     {
       title: "Contact Me",
-      id: "contact_me",
+      id: "contac",
       link: "/contact",
     },
  
