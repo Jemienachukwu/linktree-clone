@@ -109,7 +109,7 @@ input:invalid {
   padding: 5px 0;
   resize: none;
   outline: none;
-  text-indent: 7px;
+  text-indent: 10px;
 }
 
 textarea:invalid {
