@@ -128,6 +128,10 @@ input:focus {
   border: none;
   box-shadow: none;
 }
+.checkbox:focus {
+  border: none;
+  box-shadow: none;
+}
 .contactBtn {
   background-color: blue;
   color: white;
